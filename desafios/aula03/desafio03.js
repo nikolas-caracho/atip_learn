@@ -1,0 +1,1 @@
+//qd nenhum parametro é passado ele é undefined, se for definido ('olá,' + nome)

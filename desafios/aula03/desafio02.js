@@ -1,0 +1,1 @@
+function mostrarOrdemCrescente ()//receber 3 numeros e colocar em ordem crescente
