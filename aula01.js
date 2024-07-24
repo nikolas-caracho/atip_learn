@@ -5,8 +5,10 @@ let mensagem = 'Olá mundo';
 
 let idade = 22;
 let booleano = true;
-let lista = [1 ,2, 3];
-let objeto = { 'nome' : 'Eduardo'};
+let lista = [1, 2, 3];
+let objeto = {
+    'nome': 'Eduardo'
+};
 let indefinido = undefined;
 console.log(mensagem);
 //objeto.função("Parâmetros");

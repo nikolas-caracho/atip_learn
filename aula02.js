@@ -15,7 +15,7 @@ console.log(`${mensagem}`);
 // o código typescript precisa ser transpilado em js para que o navegador interprete
 //a const nao pode ser reatribuida
 //var (melhor não usar. as diferenças sao majoritariamente de escopo e visibilidade. pesquisar depois)
-const numero = 1234 ;
+const numero = 1234;
 var mensagemVar = 'Olá Mundo';
 
 //operadores de atribuição
@@ -32,9 +32,8 @@ console.log(22 == '22');
 console.log(22 === '22');
 
 //operadores lógicos
-console.log (true  ||  true);
-console.log (false ||  true);
-console.log (true  ||  false);
-console.log (true  ||  true);
+console.log(true || true);
+console.log(false || true);
+console.log(true || false);
+console.log(true || true);
 //operador de concatenação
-
