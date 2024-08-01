@@ -3,16 +3,32 @@
 // crescente.
 
 function mostrarOrdemCrescente(n1, n2, n3) {
+  let maior;
+  let menor;
+  let mediana;
   if (n1 > n2 && n1 > n3) {
-   
-  } else if (n1 < n2 && n1 < n3) {
-    let menor = n1;
-    return menor;
+    maior = n1;
+    if (n2 > n3) {
+      menor = n3;
+      mediana = n2;
+    }
+  } else if (n2 > n1 && n2 > n3) {
+    maior = n2;
+    if (n3 > n1) {
+      menor = n1;
+      mediana = n3;
+    }
   } else {
-    let mediana = n1;
-    return mediana;
+    maior = n3;
+    if (n2 > n1) {
+      menor = n1;
+      mediana = n2;
+    }
   }
+  console.log(menor, mediana, maior);
 }
 
- mostrarOrdemCrescente(5,3,7);
-console.log(maior);
+mostrarOrdemCrescente(7, 5, 3);
+mostrarOrdemCrescente(4, 5, 6);
+mostrarOrdemCrescente(9, 8, 7);
+mostrarOrdemCrescente(3, 5, 7);
